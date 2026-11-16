@@ -108,4 +108,4 @@ indicada no início do documento.
 Solicitações de suporte ou privacidade podem ser registradas no canal público
 do projeto:
 
-https://github.com/IuryCoimbra/investview/issues
+https://github.com/IuryCoimbra/investview-privacy/issues
