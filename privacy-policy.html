@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Política de Privacidade — InvestView</title>
+  <style>
+    :root { color-scheme: dark; --bg: #101827; --panel: #192638;
+      --text: #f1f5f9; --muted: #b3c0d1; --blue: #60a5fa; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text);
+      font: 16px/1.65 Arial, sans-serif; }
+    main { width: min(900px, calc(100% - 32px)); margin: 32px auto;
+      padding: clamp(22px, 5vw, 56px); background: var(--panel);
+      border: 1px solid #2b3b50; border-radius: 14px; }
+    h1 { margin-top: 0; color: var(--blue); line-height: 1.2; }
+    h2 { margin-top: 32px; font-size: 1.2rem; }
+    p, li { color: var(--muted); }
+    a { color: var(--blue); }
+    code { color: #93c5fd; }
+    .date { font-size: .9rem; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Política de Privacidade do InvestView</h1>
+  <p class="date">Vigência: 13 de novembro de 2026. Última atualização:
+    16 de novembro de 2026.</p>
+
+  <h2>1. Responsável e finalidade</h2>
+  <p>O InvestView — Painel Inteligente é uma extensão para Google Chrome
+    desenvolvida por Iury Coimbra. Sua finalidade é permitir que o usuário
+    acompanhe ativos financeiros e organize localmente sua carteira em um
+    painel personalizável. A extensão não oferece recomendação, consultoria,
+    intermediação nem execução de ordens de investimento.</p>
+
+  <h2>2. Dados tratados e armazenamento</h2>
+  <p>Ativos selecionados, datas de compra, quantidades, preços pagos e
+    preferências de visualização são armazenados em
+    <code>chrome.storage.local</code>, no perfil local do Chrome, somente para
+    montar e preservar o painel. O InvestView não possui contas, servidor
+    próprio, banco remoto, telemetria ou publicidade. O desenvolvedor não recebe
+    nem consegue consultar esses registros locais.</p>
+
+  <h2>3. Serviços externos</h2>
+  <p>A extensão usa HTTPS para consultar o Yahoo Finance e o TradingView. São
+    enviados códigos de ativos, termos de pesquisa, períodos e intervalos
+    necessários à pesquisa, cotação, histórico e exibição de gráficos. Datas
+    de compra, quantidades e preços pagos não são enviados nessas requisições.</p>
+  <p>Os widgets do TradingView funcionam em quadros isolados de outro domínio.
+    Os provedores podem receber informações técnicas da conexão, como endereço
+    IP, agente do navegador e horário, conforme suas próprias políticas.</p>
+
+  <h2>4. Compartilhamento e uso limitado</h2>
+  <p>O InvestView não vende, aluga ou usa dados para publicidade, crédito ou
+    criação de perfis. O compartilhamento limita-se aos códigos de ativos e
+    parâmetros técnicos necessários aos provedores de mercado. O tratamento
+    segue a finalidade declarada e os requisitos de Uso Limitado da Política de
+    Dados do Usuário da Chrome Web Store.</p>
+
+  <h2>5. Retenção, exclusão e direitos</h2>
+  <p>Os dados permanecem no dispositivo até serem editados ou excluídos no
+    painel, restaurados ou removidos com a desinstalação. Nos termos aplicáveis
+    da LGPD, o usuário pode conhecer este tratamento, corrigir e excluir seus
+    registros diretamente no dispositivo.</p>
+
+  <h2>6. Segurança</h2>
+  <p>As comunicações usam HTTPS, as entradas são validadas e o pacote não
+    carrega scripts executáveis remotos. Nenhum mecanismo digital oferece
+    segurança absoluta; mantenha o Chrome e a extensão atualizados e proteja seu
+    perfil do navegador.</p>
+
+  <h2>7. Atualizações e contato</h2>
+  <p>Esta política será atualizada quando houver mudança relevante no tratamento
+    de dados. Para suporte ou privacidade, abra uma solicitação nas
+    <a href="https://github.com/IuryCoimbra/investview/issues">Issues do projeto
+    InvestView no GitHub</a>.</p>
+</main>
+</body>
+</html>
